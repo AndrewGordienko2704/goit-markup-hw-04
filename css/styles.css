@@ -139,9 +139,7 @@ padding-top: 200px;
 padding-bottom: 200px; 
 
 }
-.hero-box {
-    
-}
+
 .head-title {
 color: var(--background-color);
 font-weight: 900;
@@ -199,9 +197,7 @@ text-align: center;
 margin-bottom: 50px;
 }
 /* чим ми займаємось */
-.box {
-   
-}
+
 .photo-card{
     display: flex;
     gap: 30px;
@@ -238,9 +234,7 @@ line-height: 1.71;
 }
 
 /* стилізація секції наша команда */
-.card {
-    
-}
+
 
 .box.element {
     background-color: var(--team-background-color);
@@ -299,10 +293,9 @@ padding: 60px 0;
 .contacts .adres:focus {
     color: var(--accent-color);
 }
-.footer-navigation {
-  
 
-}
+
+
 .adress-nav {
     margin-top: 20px;
 }
@@ -326,11 +319,7 @@ padding: 60px 0;
     }
     
   
-    .filters-navigations {
-                
-    }
     
-
     .filters {
         display: flex;
         justify-content: center;
@@ -339,10 +328,7 @@ padding: 60px 0;
        
     
     }
-    .filters-item {
     
-        
-    }
     .filters .filters-title {
         background-color: var(--team-background-color);
         color: var(--title-text-color);
@@ -370,9 +356,7 @@ padding: 60px 0;
         gap: 30px;
        
     }
-    .project {
-        
-    }
+    
     .project .project-title {
     color: var(--title-text-color);
     font-weight: 700;
