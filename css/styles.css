@@ -104,7 +104,23 @@ font-style: normal;
 .contacts .tel:hover, 
 .contacts .tel:focus {
     color: var(--accent-color);
-}   
+}
+
+.contacts-link:hover,
+.contacts-lsnk:focus {
+fill: var(--accent-color);
+}
+
+.contacts-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+
+
+
+
 
 .header-container {
     display: flex;
@@ -210,6 +226,22 @@ margin-bottom: 50px;
     padding-bottom: 94px;
 }
 /* стилизация секции наші переваги */
+.helping-box {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 25px 100px;
+margin-bottom: 30px;
+background-color: var(--team-background-color);
+}
+
+.helping-icon {
+width: 70px;
+height: 70px;
+fill: var(--primary-text-color);
+}
+
+
 .box.text {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -344,6 +376,12 @@ border: 1px solid var(--accent-color);
 }
 
 /* футер */
+.footer-navigation {
+    display: flex;
+    align-items: baseline;
+}
+
+
 .basement {
 background-color: var(--dark-background-color);
 padding: 60px 0;
@@ -380,7 +418,46 @@ padding: 60px 0;
     .contacts-footer .mail-footer {
     color: var(--reserve-background-color);
     }
+
+    .join-in {
+        margin-left: 70px;
+    }
+
+    .join-in-title {
+        color: var(--background-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
     
+    .logo-list-footer {
+        display: flex;
+        justify-content: center;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .logo-list-link-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+         height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    .logo-list-link-footer:hover,
+    .logo-list-link-footer:focus {
+        background-color: var(--accent-color);
+    }
+
+    .logo-list-icon-footer {
+        width: 20px;
+        height: 20px;
+        fill: var(--background-color);
+    }
 
 
     /* стилізація сторінки портфоліо */
@@ -427,7 +504,15 @@ padding: 60px 0;
         gap: 30px;
        
     }
+    .project-card {
+        display: block;
+    }
     
+     .project-card:hover,
+     .project-card:focus {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     }
+
     .project .project-title {
     color: var(--title-text-color);
     font-weight: 700;
