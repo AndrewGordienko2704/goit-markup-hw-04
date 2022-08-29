@@ -22,8 +22,9 @@ p {
 ul,
 ol {
     margin-top: 0;
-        margin-bottom: 0;
-        padding-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 ul {
@@ -133,11 +134,13 @@ font-style: normal;
 
 /* стилизация заглавия с кнопкой */
 .head {
-background-color: var(--dark-background-color);
 text-align: center;
 padding-top: 200px;
-padding-bottom: 200px; 
-
+padding-bottom: 200px;
+background-color: #C4C4C4;
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+background-size: 1600px;
+background-repeat: no-repeat;
 }
 
 .head-title {
@@ -248,7 +251,7 @@ line-height: 1.71;
 .team .card {
     background-color: var(--background-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 
 }
 .team .team-member {
@@ -264,14 +267,82 @@ color: var(--primary-text-color);
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
+margin-bottom: 16px;
 
 }
 .information-team {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 32px;
+    padding-right: 32px;
 
 }
- 
+.social-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+}
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+}
+
+.social-list-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: var(--background-color);
+}
+
+
+/* Постійні клієнти */
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.logo-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.logo-list-link {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+padding: 16px 32px;
+}
+.logo-list-link:hover,
+.logo-list-link:focus {
+background-color: var(--background-color);
+border: 1px solid var(--accent-color);
+}
+
+.logo-list-icon {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+.logo-list-link:hover .logo-list-icon,
+.logo-list-link:focus .logo-list-icon {
+    fill: var(--accent-color);
+}
+
 /* футер */
 .basement {
 background-color: var(--dark-background-color);
